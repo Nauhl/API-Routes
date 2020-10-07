@@ -1,0 +1,30 @@
+GET http://localhost:3000/api
+
+###
+
+GET http://localhost:3000/api/5f70f8300306ca0654c0e474
+
+###
+
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "name": "react",
+    "subscribedToChannel": "REACT"
+}
+
+###
+
+PATCH http://localhost:3000/api/5f795298a4ade02b5c909267
+Content-Type: application/json
+
+{
+   "name": "APIIIII"
+} 
+
+###
+
+DELETE http://localhost:3000/api/5f72978ddf7e80259413b570
+
+//  cambie la direccion del / de el archivo server.js
